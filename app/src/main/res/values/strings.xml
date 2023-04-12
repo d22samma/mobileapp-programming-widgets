@@ -2,6 +2,6 @@
     <string name="app_name">Widgets</string>
     <string name="User">Username:</string>
     <string name="Password">Password:</string>
-    <string name="EditPassword">Your Password</string>
-    <string name="EditUsername">Your Username</string>
+    <string name="EditPassword">User</string>
+    <string name="EditUsername">Admin</string>
 </resources>
