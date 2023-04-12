@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Widgets</string>
+    <string name="User">Username:</string>
+    <string name="Password">Password:</string>
 </resources>
