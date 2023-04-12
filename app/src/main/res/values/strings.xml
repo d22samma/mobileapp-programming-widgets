@@ -4,4 +4,5 @@
     <string name="Password">Password:</string>
     <string name="EditPassword">User</string>
     <string name="EditUsername">Admin</string>
+    <color name="IconCol">#00BCD4</color>
 </resources>
