@@ -18,8 +18,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="235dp"
-        android:layout_height="68dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/EditUsername"
@@ -31,8 +31,8 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="95dp"
-        android:layout_height="39dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/User"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName2"
@@ -42,8 +42,8 @@
 
     <EditText
         android:id="@+id/editTextTextPassword2"
-        android:layout_width="235dp"
-        android:layout_height="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
         android:text="@string/EditPassword"
@@ -51,12 +51,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.485" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="91dp"
-        android:layout_height="36dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/Password"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPassword2"
